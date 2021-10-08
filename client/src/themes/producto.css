@@ -1,0 +1,32 @@
+.containerTabla{
+    margin-top: 10px !important;
+    margin-left: 280px !important; 
+}
+
+.MuiTypography-h6 {
+    font-family: DM Sans !important;
+      font-style: bold !important;
+      font-weight: normal !important;
+      font-size: 46px !important;
+      line-height: 20px !important;
+      letter-spacing: 0.25px !important;   
+      color:#2E3650 !important;
+}
+.MUIDataTableHeadCell-data-53 {
+   font-family: DM Sans !important;
+      font-style: bold !important;
+      font-weight: bold !important;
+      font-size: 16px !important;
+      line-height: 20px !important;
+      letter-spacing: 0.25px !important;   
+      color:#2E3650 !important;
+}
+.MUIDataTableBodyCell-stackedCommon-75 {
+   font-family: DM Sans !important;
+      font-style: normal !important;
+      font-weight: normal !important;
+      font-size: 16px !important;
+      line-height: 20px !important;
+      letter-spacing: 0.25px !important;   
+      color:#2E3650 !important;
+}

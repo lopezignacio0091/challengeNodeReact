@@ -1,0 +1,70 @@
+.MuiAlert-standardWarning {
+    width: 100% !important;
+    background: rgb(206, 89, 54) !important;
+    color: white !important;;
+}
+.MuiGrid-grid-lg-12 .MuiButton-containedSecondary {
+    background: #2E3650 !important;
+}
+
+
+
+   
+    .MuiGrid-grid-xs-3 .MuiTypography-displayBlock {
+        
+        font-size: 13px !important;
+        font-family: Titillium Web;
+        font-style: normal;
+        font-weight: bold;
+    }
+
+    .cardForm{
+        margin-top: 7% !important;
+        padding: 5% !important;
+        background-color: rgb(255, 255, 255) !important;
+       
+    }
+
+    .tituloForm{
+        font-family: DM Sans !important;
+        font-style: normal !important;
+        font-weight: normal !important;
+        font-size: 46px !important;
+        line-height: 20px !important;
+        text-align: center;
+        letter-spacing: 0.25px !important;   
+        color:rgb(190,232,190) !important;
+    }
+
+    .label{
+        font-family:  DM Sans !important;
+        font-style: normal  !important;
+        font-weight: 600  !important;
+        font-size: 10px  !important;
+        line-height: 16px  !important;
+        letter-spacing: 1.5px  !important;
+        text-transform: uppercase  !important;
+        color: #414141  !important;
+    }
+    .gridItem{
+        margin-top: 10px !important;
+    }
+
+    .cardForm .MuiOutlinedInput-input {
+        width: 420px !important;
+    }
+    .btnCancelar{
+        background-color: #FFFFFF !important; 
+        text-align: center !important;
+        color: rgb(190,232,190) !important;
+        align-items: center !important;
+        width: 215px !important;
+    }
+    .btnAceptar{
+        background-color : rgb(190,232,190) !important; 
+        border-radius: 4px !important;
+        border-radius: 4px !important;
+        width: 215px !important;
+        color: white !important;
+        text-align: center !important;
+    }

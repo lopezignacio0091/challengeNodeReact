@@ -1,0 +1,145 @@
+
+.drawer{
+    width: 240px !important;
+    flex-shrink: 0 !important;
+    white-space: 'nowrap' !important;
+  }
+  .drawerOpen{
+    width: '246px' !important;
+    background-color: '#2E3650' !important;
+  }
+  .tabsContainer{
+    display: 'flex' !important;
+    width: 100% !important;
+    
+  }
+  .root {
+    display: 'flex' !important;
+
+  }
+  .MuiPaper-elevation0 {
+    width: 250px;
+    background-color: #2E3650 !important;
+}
+  .dividerNav{
+    width: 100% !important;
+    left: 24px !important;
+    right: 40px !important;
+    border: 1px solid !important;
+    color: #BFC8E0 !important;
+    transform: rotate(180deg) !important;
+    margin-left: 20px !important;
+  }
+
+  .titleLink{
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 16px !important;
+    color:white;
+  }
+
+  .icono{
+    width: '16.78px' !important;
+    height: '21.94px' !important;
+    color: #FFFFFF !important;
+    margin-left: '5px' !important;
+    color:white !important;
+  }
+
+  .labelNav{
+    font-family: Titillium Web;
+    font-style: 'normal';
+    font-weight: 'bold';
+    font-size: '12px';
+    color: white;
+    margin-left: '20px'
+  }
+  .titleLinkSelect{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    color: #5974FB;
+  }
+
+  label{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-left: 20px;
+  };
+  .rootNav{
+    background-color: #2E3650 !important;
+  }
+  .toolbar{
+    display:  'flex'  !important;
+    align-items:  'center'  !important;
+    justify-content:  'flex-end'  !important;
+    padding: 5%  !important;
+    width:  100%  !important;
+  }
+  .content{
+    flex-grow: 1;
+    padding: 20px;
+  }
+
+  .divider{
+    width: 175px;
+    left: 24px !important;
+    right: 40px;
+    border: 1px solid !important;
+    color: #ffffff !important;
+    transform: rotate(180deg);
+    margin-left: 20px !important;
+  }
+
+  .titleSistema{
+    width: 130px !important;
+    height: 48px !important;
+    left: 9.96% !important;
+    right: 36.1% !important;
+    font-family: Titillium Web !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 28px !important;
+    margin-left: 24px !important;
+    color: #FFFFFF !important;
+    margin: 12px !important;
+  }
+  .NavBarTransaccion{    
+    background: #FFFFFF !important;
+}
+
+.NavBarTransaccion .MuiButton-containedSecondary {
+    color: #fff;
+    background-color: #FFFFFF !important;
+}
+
+.NavBarTransaccion .MuiButton-iconSizeMedium > *:first-child {
+    font-size: 35px !important;
+}
+
+.NavBarTransaccion h5{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 24px;
+    letter-spacing: 0.18px;
+    color: #2E3650;
+    margin-top: 4%;
+}
+
+.NavBarTransaccion span{
+    font-family: Titillium Web;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: 0.5px;
+    color: #2E3650;
+}

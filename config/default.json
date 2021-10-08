@@ -1,0 +1,4 @@
+{
+    "mongoURI":"mongodb+srv://juaniLopez:Pilar1706@cluster0.itfa2.mongodb.net/Proyecto0?retryWrites=true&w=majority",
+    "jwtSecret":"secret"
+} 
