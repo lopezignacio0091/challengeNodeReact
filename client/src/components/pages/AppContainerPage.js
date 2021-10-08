@@ -54,6 +54,7 @@ const AppContainerPage = () => {
                             Challenge
                          </h4>
                     </Grid>
+                    <Divider className='divider' />
                     <Grid item xs={12} md={12}>
                         <List>
                             <ListItem button component={Link} to={`${url}/Productos`} >
@@ -63,15 +64,6 @@ const AppContainerPage = () => {
                         </List>
                     </Grid>
                     <Divider className='divider' />
-                    <Grid item xs={12} md={12}>
-                        <List>
-                            <label className='label'>COMPRA/VENTA</label>
-                            <ListItem button component={Link} to={'/compras'}  >
-                                <ListItemIcon ><AttachMoneyIcon className='icono' /></ListItemIcon>
-                                <ListItemText className='titleLink' primary="Compras" />
-                            </ListItem>
-                        </List>
-                    </Grid>
                 </Grid>
             </Drawer>
             <main className='content'>

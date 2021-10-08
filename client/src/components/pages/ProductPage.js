@@ -13,7 +13,7 @@ import '../../themes/producto.css'
 
 const ProductPage = () => {
     const dispatch = useDispatch();
-    const { loading, error, mensajeError, openModal, guardadoOk, mensaje, productos } = useSelector((state) => state.ProductsReducer);
+    const { loading, error, mensajeError, openModal, guardadoOk, mensaje,errorProducto} = useSelector((state) => state.ProductsReducer);
 
 
     useEffect(() => {
@@ -25,6 +25,12 @@ const ProductPage = () => {
 
     return (
         <Grid container direction="row">
+            <Mensaje
+                open={errorProducto}
+                mensaje={mensajeError}
+                cerrarMsj={() => dispatch(cerrarMensaje())}
+                error={true}
+            />
             <Grid>
                 <Mensaje open={guardadoOk} mensaje={mensaje} cerrarMsj={() => dispatch(cerrarMensaje())} />
             </Grid>

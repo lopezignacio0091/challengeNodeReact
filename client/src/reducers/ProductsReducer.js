@@ -1,16 +1,17 @@
 
-import { LOADING, ERROR_PRODUCT, CERRAR_MENSAJE_PRODUCTO, CREATE_PRODUCT, DELETE_PRODUCT, GET_PRODUCTS, SELECT_EDIT, OPEN_FORMULARIO_PRODUCTO, EDIT_PRODUCT } from "../actions/types";
+import { LOADING, ERROR_PRODUCT, ERROR_PRODUCT_OPERATION,CERRAR_MENSAJE_PRODUCTO, CREATE_PRODUCT, DELETE_PRODUCT, GET_PRODUCTS, SELECT_EDIT, OPEN_FORMULARIO_PRODUCTO, EDIT_PRODUCT } from "../actions/types";
 import _ from 'lodash';
 
 const initialState = {
     loading: true,
     productos: [],
     error: false,
-    errorMensaje: '',
+    mensajeError: '',
     editProducto: {},
     openModal: false,
     mensaje: '',
     guardadoOk: false,
+    errorProducto:false
 };
 
 export default (state = initialState, action) => {
@@ -56,6 +57,12 @@ export default (state = initialState, action) => {
                 editProducto: {},
                 openModal: action.payload,
             };
+            case ERROR_PRODUCT_OPERATION:
+                return {
+                    ...state,
+                    errorProducto: true,
+                    mensajeError: "Error al realizar la operacion",
+                };
         case CREATE_PRODUCT:
             return {
                 ...state,
@@ -69,6 +76,8 @@ export default (state = initialState, action) => {
                 ...state,
                 guardadoOk: false,
                 mensaje: '',
+                errorProducto: false,
+                mensajeError: "",
             };
 
 
@@ -77,7 +86,7 @@ export default (state = initialState, action) => {
                 ...state,
                 error: true,
                 loading: false,
-                errorMensaje: 'Error por favor comunicarse con el administrador'
+                mensajeError: 'Error por favor comunicarse con el administrador'
             };
         default:
             return state;
