@@ -14,7 +14,7 @@ const FormularioFormik = () => {
 
 
     const SignupSchema = Yup.object().shape({
-        //email: Yup.string().min(2, 'Too Short!').max(70, 'Too Long!').matches(/^[a-zA-Z ]+$/, "Invalid Name only letters").required('Required'),
+        email: Yup.string().email('Must be a valid email').max(255).required('Email is required'),
         password: Yup.string().min(6, 'Password has to be longer than 6 characters!').required('Password is required!')
     });
 
